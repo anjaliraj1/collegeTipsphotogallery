@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CollegeTips Photo Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <header>
+    <h1>📸 CollegeTips Photo Gallery</h1>
+    <div class="filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="team">Team Vibes</button>
+      <button class="filter-btn" data-filter="campaign">Creative Campaigns</button>
+      <button class="filter-btn" data-filter="fun">Work Hard, Play Hard</button>
+      <button class="filter-btn" data-filter="bts">Behind-The-Scenes</button>
+    </div>
+  </header>
+
+  <main class="gallery-container">
+  <!-- Team Vibes -->
+  <div class="gallery-item team"><img src="images/team1.jpeg" alt="Team Vibes"></div>
+  <div class="gallery-item team"><img src="images/team2.jpeg" alt="Team Vibes"></div>
+  <div class="gallery-item team"><img src="images/team3.jpeg" alt="Team Vibes"></div>
+  <div class="gallery-item team"><img src="images/team4.jpeg" alt="Team Vibes"></div>
+  <div class="gallery-item team"><img src="images/team5.jpeg" alt="Team Vibes"></div>
+  <div class="gallery-item team"><img src="images/team6.jpeg" alt="Team Vibes"></div>
+  <div class="gallery-item team"><img src="images/team7.jpeg" alt="Team Vibes"></div>
+
+  <!-- Creative Campaigns -->
+  <div class="gallery-item campaign"><img src="images/campaign1.jpeg" alt="Creative Campaigns"></div>
+  <div class="gallery-item campaign"><img src="images/campaign2.jpeg" alt="Creative Campaigns"></div>
+  <div class="gallery-item campaign"><img src="images/campaign3.jpeg" alt="Creative Campaigns"></div>
+  <div class="gallery-item campaign"><img src="images/campaign4.jpeg" alt="Creative Campaigns"></div>
+  <div class="gallery-item campaign"><img src="images/campaign5.jpeg" alt="Creative Campaigns"></div>
+  <div class="gallery-item campaign"><img src="images/campaign6.jpeg" alt="Creative Campaigns"></div>
+
+  <!-- Work Hard Play Hard -->
+  <div class="gallery-item fun"><img src="images/fun1.jpeg" alt="Work Hard Play Hard"></div>
+  <div class="gallery-item fun"><img src="images/fun2.jpeg" alt="Work Hard Play Hard"></div>
+  <div class="gallery-item fun"><img src="images/fun3.jpeg" alt="Work Hard Play Hard"></div>
+  <div class="gallery-item fun"><img src="images/fun4.jpeg" alt="Work Hard Play Hard"></div>
+  <div class="gallery-item fun"><img src="images/fun5.jpeg" alt="Work Hard Play Hard"></div>
+  <div class="gallery-item fun"><img src="images/fun6.jpeg" alt="Work Hard Play Hard"></div>
+  <div class="gallery-item fun"><img src="images/fun7.jpeg" alt="Work Hard Play Hard"></div>
+  <div class="gallery-item fun"><img src="images/fun8.jpeg" alt="Work Hard Play Hard"></div>
+  <div class="gallery-item fun"><img src="images/fun9.jpeg" alt="Work Hard Play Hard"></div>
+
+  <!-- Behind The Scenes -->
+  <div class="gallery-item bts"><img src="images/bts1.jpeg" alt="Behind The Scenes"></div>
+  <div class="gallery-item bts"><img src="images/bts2.jpeg" alt="Behind The Scenes"></div>
+  <div class="gallery-item bts"><img src="images/bts3.jpeg" alt="Behind The Scenes"></div>
+  <div class="gallery-item bts"><img src="images/bts4.jpeg" alt="Behind The Scenes"></div>
+  <div class="gallery-item bts"><img src="images/bts5.jpeg" alt="Behind The Scenes"></div>
+  <div class="gallery-item bts"><img src="images/bts6.jpeg" alt="Behind The Scenes"></div>
+</main>
+
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <span class="close" id="close">&times;</span>
+    <img src="" alt="Enlarged" class="lightbox-img" id="lightbox-img">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
